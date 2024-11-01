@@ -1,0 +1,24 @@
+#viewport-size { 
+    color: #ccc;
+    font: normal 13px/28px sans-serif;
+    height: 28px;
+    padding: 0 12px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99999999;
+    background: #464646;
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,#373737),color-stop(18%,#464646));
+    background-image: -webkit-linear-gradient(bottom,#373737 0,#464646 5px);
+    background-image: -moz-linear-gradient(bottom,#373737 0,#464646 5px);
+    background-image: -o-linear-gradient(bottom,#373737 0,#464646 5px);
+    background-image: linear-gradient(to top,#373737 0,#464646 5px);
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+
+#viewport-size img { 
+    vertical-align: middle;
+    margin: -4px 8px 0 0;
+}
